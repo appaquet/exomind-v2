@@ -1669,7 +1669,7 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "tempfile",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
  "url 2.5.4",
  "zip",
@@ -1710,7 +1710,7 @@ dependencies = [
  "futures",
  "log",
  "reqwest",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "wasmtime",
  "wasmtime-wasi",
 ]
@@ -1724,7 +1724,7 @@ dependencies = [
  "log",
  "quote",
  "syn 2.0.101",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
 ]
 
 [[package]]
@@ -1740,7 +1740,7 @@ dependencies = [
  "lazy_static",
  "log",
  "quote",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
 ]
 
@@ -1761,7 +1761,7 @@ dependencies = [
  "memmap2 0.9.5",
  "serde",
  "tempfile",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
 ]
 
@@ -1773,7 +1773,7 @@ dependencies = [
  "exocore-core",
  "exocore-store",
  "exocore-transport",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
 ]
 
 [[package]]
@@ -1808,7 +1808,7 @@ dependencies = [
  "js-sys",
  "log",
  "rand 0.7.3",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "wasm-logger",
@@ -1843,7 +1843,7 @@ dependencies = [
  "serde_yaml",
  "shadow-rs",
  "tempfile",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
  "url 2.5.4",
  "uuid",
@@ -1868,7 +1868,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
  "wasm-timer",
 ]
@@ -1889,7 +1889,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
 ]
 
 [[package]]
@@ -1917,7 +1917,7 @@ dependencies = [
  "smallvec",
  "tantivy",
  "tempfile",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
 ]
 
@@ -1937,7 +1937,7 @@ dependencies = [
  "libp2p-mplex",
  "log",
  "pin-project",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
  "url 2.5.4",
 ]
@@ -4870,7 +4870,7 @@ dependencies = [
  "rustc-hash 2.1.1",
  "rustls 0.23.23",
  "socket2",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tokio",
  "tracing",
 ]
@@ -4889,7 +4889,7 @@ dependencies = [
  "rustls 0.23.23",
  "rustls-pki-types",
  "slab",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "tinyvec",
  "tracing",
  "web-time",
@@ -6102,11 +6102,11 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "2.0.12"
+version = "2.0.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "567b8a2dae586314f7be2a752ec7474332959c6460e02bde30d702a66d488708"
+checksum = "3467d614147380f2e4e374161426ff399c91084acd2363eaf549172b3d5e60c0"
 dependencies = [
- "thiserror-impl 2.0.12",
+ "thiserror-impl 2.0.16",
 ]
 
 [[package]]
@@ -6122,9 +6122,9 @@ dependencies = [
 
 [[package]]
 name = "thiserror-impl"
-version = "2.0.12"
+version = "2.0.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f7cf42b4507d8ea322120659672cf1b9dbb93f8f2d4ecfd6e51350ff5b17a1d"
+checksum = "6c5e1be1c48b9172ee610da68fd9cd2770e7a4056cb3fc98710ee6906f0c7960"
 dependencies = [
  "proc-macro2",
  "quote",
