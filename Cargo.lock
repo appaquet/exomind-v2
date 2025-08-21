@@ -338,7 +338,7 @@ checksum = "8d9a9bf8b79a749ee0b911b91b671cc2b6c670bdbc7e3dfd537576ddc94bb2a2"
 dependencies = [
  "http 0.2.12",
  "log",
- "url 2.5.4",
+ "url 2.5.6",
 ]
 
 [[package]]
@@ -1671,7 +1671,7 @@ dependencies = [
  "tempfile",
  "thiserror 2.0.12",
  "tokio",
- "url 2.5.4",
+ "url 2.5.6",
  "zip",
 ]
 
@@ -1845,7 +1845,7 @@ dependencies = [
  "tempfile",
  "thiserror 2.0.12",
  "tokio",
- "url 2.5.4",
+ "url 2.5.6",
  "uuid",
  "wasm-bindgen",
  "wasm-bindgen-futures",
@@ -1939,7 +1939,7 @@ dependencies = [
  "pin-project",
  "thiserror 2.0.12",
  "tokio",
- "url 2.5.4",
+ "url 2.5.6",
 ]
 
 [[package]]
@@ -2135,11 +2135,11 @@ checksum = "a0d2fde1f7b3d48b8395d5f2de76c18a528bd6a9cdde438df747bfcba3e05d6f"
 
 [[package]]
 name = "form_urlencoded"
-version = "1.2.1"
+version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456"
+checksum = "cb4cb245038516f5f85277875cdaa4f7d2c9a0fa0468de06ed190163b1581fcf"
 dependencies = [
- "percent-encoding 2.3.1",
+ "percent-encoding 2.3.2",
 ]
 
 [[package]]
@@ -2430,13 +2430,13 @@ dependencies = [
  "hyper 0.14.32",
  "itertools 0.12.1",
  "mime",
- "percent-encoding 2.3.1",
+ "percent-encoding 2.3.2",
  "serde",
  "serde_json",
  "serde_with",
  "tokio",
  "tower-service",
- "url 2.5.4",
+ "url 2.5.6",
  "yup-oauth2",
 ]
 
@@ -2576,7 +2576,7 @@ dependencies = [
  "futures-channel",
  "futures-io",
  "futures-util",
- "idna 1.0.3",
+ "idna 1.1.0",
  "ipnet",
  "once_cell",
  "rand 0.8.5",
@@ -2585,7 +2585,7 @@ dependencies = [
  "tinyvec",
  "tokio",
  "tracing",
- "url 2.5.4",
+ "url 2.5.6",
 ]
 
 [[package]]
@@ -2849,7 +2849,7 @@ dependencies = [
  "hyper 1.6.0",
  "ipnet",
  "libc",
- "percent-encoding 2.3.1",
+ "percent-encoding 2.3.2",
  "pin-project-lite",
  "socket2",
  "tokio",
@@ -3017,9 +3017,9 @@ dependencies = [
 
 [[package]]
 name = "idna"
-version = "1.0.3"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "686f825264d630750a544639377bae737628043f20d38bbc029e8f29ea968a7e"
+checksum = "3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de"
 dependencies = [
  "idna_adapter",
  "smallvec",
@@ -3078,7 +3078,7 @@ dependencies = [
  "log",
  "rand 0.8.5",
  "tokio",
- "url 2.5.4",
+ "url 2.5.6",
  "xmltree",
 ]
 
@@ -3746,7 +3746,7 @@ dependencies = [
  "soketto",
  "thiserror 1.0.69",
  "tracing",
- "url 2.5.4",
+ "url 2.5.6",
  "webpki-roots 0.25.4",
 ]
 
@@ -4112,11 +4112,11 @@ dependencies = [
  "libp2p-identity",
  "multibase",
  "multihash",
- "percent-encoding 2.3.1",
+ "percent-encoding 2.3.2",
  "serde",
  "static_assertions",
  "unsigned-varint 0.8.0",
- "url 2.5.4",
+ "url 2.5.6",
 ]
 
 [[package]]
@@ -4526,9 +4526,9 @@ checksum = "31010dd2e1ac33d5b46a5b413495239882813e0369f8ed8a5e266f173602f831"
 
 [[package]]
 name = "percent-encoding"
-version = "2.3.1"
+version = "2.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e3148f5046208a5d56bcfc03053e3ca6334e51da8dfb19b6cdc8b306fae3283e"
+checksum = "9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220"
 
 [[package]]
 name = "petgraph"
@@ -5123,7 +5123,7 @@ dependencies = [
  "log",
  "mime",
  "once_cell",
- "percent-encoding 2.3.1",
+ "percent-encoding 2.3.2",
  "pin-project-lite",
  "quinn",
  "rustls 0.23.23",
@@ -5137,7 +5137,7 @@ dependencies = [
  "tower",
  "tower-http",
  "tower-service",
- "url 2.5.4",
+ "url 2.5.6",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
@@ -6521,13 +6521,13 @@ dependencies = [
 
 [[package]]
 name = "url"
-version = "2.5.4"
+version = "2.5.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32f8b686cadd1473f4bd0117a5d28d36b1ade384ea9b5069a1c40aefed7fda60"
+checksum = "137a3c834eaf7139b73688502f3f1141a0337c5d8e4d9b536f9b8c796e26a7c4"
 dependencies = [
  "form_urlencoded",
- "idna 1.0.3",
- "percent-encoding 2.3.1",
+ "idna 1.1.0",
+ "percent-encoding 2.3.2",
 ]
 
 [[package]]
@@ -6805,7 +6805,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2ea896273ea99b15132414be1da01ab0d8836415083298ecaffbe308eaac87a"
 dependencies = [
  "indexmap 1.9.3",
- "url 2.5.4",
+ "url 2.5.6",
 ]
 
 [[package]]
@@ -7640,7 +7640,7 @@ dependencies = [
  "hyper-rustls 0.25.0",
  "itertools 0.12.1",
  "log",
- "percent-encoding 2.3.1",
+ "percent-encoding 2.3.2",
  "rustls 0.22.4",
  "rustls-pemfile 1.0.4",
  "seahash",
@@ -7649,7 +7649,7 @@ dependencies = [
  "time",
  "tokio",
  "tower-service",
- "url 2.5.4",
+ "url 2.5.6",
 ]
 
 [[package]]
