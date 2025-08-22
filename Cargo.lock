@@ -1758,7 +1758,7 @@ dependencies = [
  "futures",
  "itertools 0.13.0",
  "log",
- "memmap2 0.9.5",
+ "memmap2 0.9.8",
  "serde",
  "tempfile",
  "thiserror 2.0.12",
@@ -2007,7 +2007,7 @@ dependencies = [
  "byteorder",
  "extsort 0.5.0",
  "log",
- "memmap2 0.9.5",
+ "memmap2 0.9.8",
  "serde",
  "skeptic",
  "smallvec",
@@ -4052,9 +4052,9 @@ dependencies = [
 
 [[package]]
 name = "memmap2"
-version = "0.9.5"
+version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fd3f7eed9d3848f8b98834af67102b720745c4ec028fcd0aa0239277e7de374f"
+checksum = "843a98750cd611cc2965a8213b53b43e715f13c37a9e096c6408e69990961db7"
 dependencies = [
  "libc",
 ]
