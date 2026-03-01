@@ -4,8 +4,6 @@
 > This project is no longer maintained. I'm not archiving it yet since I'm still running it, but
 > it will not receive any updates.
 
-[![Build](https://github.com/appaquet/exomind/actions/workflows/push-tester.yml/badge.svg)](https://github.com/appaquet/exomind/actions/workflows/push-tester.yml)
-
 Exomind is a personal knowledge management tool that serves as a unified inbox.
 It allows you to manage your emails, notes, tasks, and bookmarks, organizing them into collections.
 
